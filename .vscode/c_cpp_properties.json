@@ -1,0 +1,56 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/shaddy/workspaceArduino/fireCamine/include",
+                "/home/shaddy/workspaceArduino/fireCamine/src",
+                "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/cores/MicroCore",
+                "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/variants/attiny13",
+                "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/AVR_examples/src",
+                "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/EEPROM/src",
+                "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/Serial_examples/src",
+                "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/TinySPI/src",
+                "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/TinyWire/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/shaddy/workspaceArduino/fireCamine/include",
+                    "/home/shaddy/workspaceArduino/fireCamine/src",
+                    "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/cores/MicroCore",
+                    "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/variants/attiny13",
+                    "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/AVR_examples/src",
+                    "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/EEPROM/src",
+                    "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/Serial_examples/src",
+                    "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/TinySPI/src",
+                    "/home/shaddy/.platformio/packages/framework-arduino-avr-microcore/libraries/TinyWire/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60105",
+                "ARDUINO_AVR_ATTINY13",
+                "F_CPU=9600000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATtiny13__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/shaddy/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=attiny13",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
